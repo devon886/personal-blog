@@ -5,7 +5,7 @@
 ## 📸 项目预览
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Personal+Tech+Blog" alt="项目预览" width="100%">
+  <img src="https://devon886-personal-blog.vercel.app" alt="项目预览" width="100%">
 </div>
 
 ## 🎯 核心功能
@@ -55,10 +55,10 @@
 #### 1. 克隆项目
 ```bash
 # 使用HTTPS
-git clone https://github.com/[your-username]/personal-blog.git
+git clone https://github.com/devon886/personal-blog.git
 
 # 或使用SSH
-git clone git@github.com:[your-username]/personal-blog.git
+git clone git@github.com:devon886/personal-blog.git
 
 cd personal-blog
 ```
@@ -373,8 +373,8 @@ npm run test:coverage
 <div align="center">
   <p>⭐ 如果这个项目对你有帮助，请给个Star！</p>
   <p>
-    <a href="https://github.com/[your-username]/personal-blog">🚀 GitHub仓库</a>
+    <a href="https://github.com/devon886/personal-blog">🚀 GitHub仓库</a>
     <span>·</span>
-    <a href="https://[your-username]-personal-blog.vercel.app">🌐 在线演示</a>
+    <a href="https://devon886-personal-blog.vercel.app">🌐 在线演示</a>
   </p>
 </div>
