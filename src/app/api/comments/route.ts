@@ -89,7 +89,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: '文章ID或slug不能为空' }, { status: 400 })
     }
 
-    // 根据邮箱查找或创建用户
+    // 根据邮箱查找或创建用户，并更新昵称为用户最新填写的
     let user = await prisma.user.findUnique({
       where: { email: authorEmail.trim() }
     })
@@ -100,6 +100,14 @@ export async function POST(request: NextRequest) {
           name: authorName.trim(),
           email: authorEmail.trim(),
           password: 'placeholder_password' // 临时密码，无需登录
+        }
+      })
+    } else {
+      // 更新用户昵称为最新填写的昵称
+      user = await prisma.user.update({
+        where: { email: authorEmail.trim() },
+        data: {
+          name: authorName.trim()
         }
       })
     }
