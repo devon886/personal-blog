@@ -7,12 +7,12 @@
 <div align="center">\  <table>
     <tr>
       <td align="center">
-        <img src="/images/yulan.jpg" alt="博客首页预览" width="400"/>
+        <img src="public/images/yulan.jpg" alt="博客首页预览" width="400"/>
         <br/>
         <em>博客首页 - 现代化设计</em>
       </td>
       <td align="center">
-        <img src="/images/yulan7.jpg" alt="文章详情页预览" width="400"/>
+        <img src="public/images/yulan7.jpg" alt="可视化数据库" width="400"/>
         <br/>
         <em>文章详情页 - 优雅的阅读体验</em>
       </td>
