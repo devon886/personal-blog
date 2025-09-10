@@ -7,14 +7,14 @@
 <div align="center">\  <table>
     <tr>
       <td align="center">
-        <img src="public/images/yulan.jpg" alt="博客首页预览" width="400"/>
+        <img src="public/images/yulan.jpg" alt="可视化数据库预览" width="400"/>
         <br/>
-        <em>博客首页 - 现代化设计</em>
+        <em>数据库 - 简洁明了</em>
       </td>
       <td align="center">
-        <img src="public/images/yulan7.jpg" alt="可视化数据库" width="400"/>
+        <img src="public/images/yulan7.jpg" alt="博客首页预览" width="400"/>
         <br/>
-        <em>文章详情页 - 优雅的阅读体验</em>
+        <em>博客首页 - 现代化设计</em>
       </td>
     </tr>
   </table>
