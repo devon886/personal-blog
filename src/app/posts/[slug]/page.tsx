@@ -81,8 +81,8 @@ export default async function BlogPostPage({ params }: PageProps) {
                     />
                   )}
                   <div>
-                    <p className="font-medium text-gray-900">your name</p>
-                    <p className="text-sm text-gray-600">minecraftlove1902@outlook.com</p>
+                    <p className="font-medium text-gray-900">{post.author.name || "匿名作者"}</p>
+                    <p className="text-sm text-gray-600">{post.author.email}</p>
                   </div>
                 </div>
               )}
